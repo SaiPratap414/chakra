@@ -23,7 +23,7 @@ const FactionView = ({ activeSection, faction }: Props) => {
               loading="lazy"
               width={460}
               height={580}
-              src={`/images/factions/${faction.id}.gif`}
+              src={`/images/factions/${faction.id}.png`}
               alt={faction.title}
             />
           )}

@@ -9,8 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/node": "18.15.10",
-    "@types/react": "18.0.30",
+    "@types/node": "20.8.8",
+    "@types/react": "18.2.31",
     "@types/react-dom": "18.0.11",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
@@ -20,7 +20,7 @@
     "react-dom": "18.2.0",
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",
-    "typescript": "5.0.2"
+    "typescript": "5.2.2"
   },
   "devDependencies": {
     "@types/parallax-js": "^3.1.0",
