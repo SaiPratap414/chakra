@@ -15,9 +15,11 @@ type Props = {
   subHeading: string;
   category: string;
   link: string;
+  id: number;
 };
 
-const GameItem = ({ imgUrl, title, subHeading, category, link }: Props) => {
+// GameItem component
+const GameItem = ({ imgUrl, title, subHeading, category, link, id }: Props) => {
   return (
     <StyledGameItemWrapper>
       <figure>
@@ -42,16 +44,19 @@ const GameItem = ({ imgUrl, title, subHeading, category, link }: Props) => {
         </StyledGameItemCategory>
         {link.length > 1 ? (
           <Link href={link} target="_blank">
-            <StyledGameItemCTA className="font-marco">play</StyledGameItemCTA>
+            <StyledGameItemCTA className="font-marco">
+              {id === 1 ? "Request Access" : "Play Now"}
+            </StyledGameItemCTA>
           </Link>
         ) : (
           <StyledGameItemCTA className="font-marco">
-            coming soon
+            Play now
           </StyledGameItemCTA>
         )}
       </div>
     </StyledGameItemWrapper>
   );
 };
+
 
 export default GameItem;

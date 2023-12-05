@@ -8,6 +8,8 @@ import { StyledBannerWrapper } from "@components/BannerItem/banner.style";
 
 type Props = {};
 
+// ... (imports and styles)
+
 const PlayBanner = (props: Props) => {
   const settings = {
     dots: true,
@@ -24,13 +26,14 @@ const PlayBanner = (props: Props) => {
     <StyledBannerWrapper>
       <div className="container mx-auto max-w-[1440px]">
         <Slider {...settings}>
+          {/* Reversed order of BannerItem components */}
           <div>
             <BannerItem
-              title="EXPLORERS, ADVENTURERS AND"
-              titleSubText="ANCIENT ORDERS ARISE!"
-              imgUrl="/images/play/banner/1.png"
-              path="https://store.epicgames.com/en-US/redeem"
-              hasCTA
+              title="EMBRACE THE FUSION OF STRATEGY AND"
+              titleSubText="INTUITION AS YOU DELVE INTO THE ANCIENT WORLD."
+              imgUrl="/images/play/banner/3.png"
+              path=""
+              hasCTA={false}
             />
           </div>
           <div>
@@ -44,11 +47,11 @@ const PlayBanner = (props: Props) => {
           </div>
           <div>
             <BannerItem
-              title="EMBRACE THE FUSION OF STRATEGY AND"
-              titleSubText="INTUITION AS YOU DELVE INTO THE ANCIENT WORLD."
-              imgUrl="/images/play/banner/3.png"
-              path=""
-              hasCTA={false}
+              title="EXPLORERS, ADVENTURERS AND"
+              titleSubText="ANCIENT ORDERS ARISE!"
+              imgUrl="/images/play/banner/1.png"
+              path="https://store.epicgames.com/en-US/redeem"
+              hasCTA
             />
           </div>
         </Slider>
@@ -58,3 +61,4 @@ const PlayBanner = (props: Props) => {
 };
 
 export default PlayBanner;
+

@@ -25,7 +25,7 @@ const GAMES = [
     imgUrl: "/images/play/clash.png",
     title: "Chakra Clash",
     subHeading: "Simultaneous Coordination Game",
-    category: "PC // Browser",
+    category: "PC // Epic Games",
     link: "",
   },
 ];

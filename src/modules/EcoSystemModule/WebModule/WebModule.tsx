@@ -57,7 +57,7 @@ const WebModule = (props: Props) => {
                     <li>
                       <StyledLoreContentDesc className="mb-6 text-white text-sm ">
                         <strong>Chakra 10k</strong> {`->`}{" "}
-                        <span className="bg-white leading-normal">
+                        <span className="">
                           A larger set of 10k 3D characters that are functional
                           in gaming, aimed at engaging a wider audience within
                           the ecosystem. While these also enable value accrual

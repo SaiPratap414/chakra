@@ -34,7 +34,7 @@ const BannerItem = ({ imgUrl, title, titleSubText, path, hasCTA }: Props) => {
           </Link>
         ) : (
           <button className="font-marco uppercase pointer-events-none">
-            coming soon
+            play now
           </button>
         )}
       </motion.aside>

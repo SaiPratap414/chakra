@@ -40,88 +40,6 @@ const GamingModule = (props: Props) => {
       <EcoContentTabs
         tabs={[
           {
-            id: "conundrum",
-            title: "Conundrum",
-            content: (
-              <StyledEcoSystemGrid className="gap-4 overflow-hidden">
-                <article className="">
-                  <StyledLoreContentDesc className="mb-4 text-white text-sm">
-                    A Social strategy game inspired by iterative prisoners
-                    dilemma Players battle it out for weekly rewards through
-                    leaderboards determined by their “Coordination Scores”.
-                  </StyledLoreContentDesc>
-                  <StyledLoreContentDesc className="mb-6 text-white text-sm">
-                    Embrace the fusion of strategy and intuition as you delve
-                    into the ancient World of Chakra Outmaneuver your foes,
-                    unlock the secrets of energy manipulation, and emerge as the
-                    supreme warrior in this captivating duel of mystical might.
-                  </StyledLoreContentDesc>
-                  <Link
-                    href="https://store.epicgames.com/en-US/redeem"
-                    target="_blank"
-                    className="play-btn"
-                  >
-                    <StyledGameItemCTA
-                      className=""
-                      style={{
-                        width: "auto",
-                        fontSize: 16,
-                        padding: "8px 12px",
-                      }}
-                    >
-                      <PlayIcon />
-                    </StyledGameItemCTA>
-                  </Link>
-                </article>
-                <StyledEcoSystemSliderContent>
-                  <video autoPlay muted playsInline loop>
-                    <source src="/videos/eco-system/conundrum.mp4" />
-                  </video>
-                </StyledEcoSystemSliderContent>
-              </StyledEcoSystemGrid>
-            ),
-          },
-          {
-            id: "ascension",
-            title: "Ascension",
-            content: (
-              <StyledEcoSystemGrid className="gap-4 overflow-hidden">
-                <article className="">
-                  <StyledLoreContentDesc className="mb-4 text-white text-sm">
-                    A 3D ARPG with comprehensive combat & loot mechanics
-                    supporting single player and team based gameplay. (PvE)
-                  </StyledLoreContentDesc>
-                  <StyledLoreContentDesc className="mb-6 text-white text-sm">
-                    Delve into digital catacombs and slaughter enemies for a
-                    never-ending shower of loot. Team up with friends to
-                    increase the challenge (and loot quality).
-                  </StyledLoreContentDesc>
-                  <Link
-                    href="https://maski-illiquid.github.io/ConundrumBeta/"
-                    target="_blank"
-                    className="play-btn"
-                  >
-                    <StyledGameItemCTA
-                      className=""
-                      style={{
-                        width: "auto",
-                        fontSize: 16,
-                        padding: "8px 12px",
-                      }}
-                    >
-                      <PlayIcon />
-                    </StyledGameItemCTA>
-                  </Link>
-                </article>
-                <StyledEcoSystemSliderContent>
-                  <video autoPlay muted playsInline loop>
-                    <source src="/videos/eco-gaming.mp4" />
-                  </video>
-                </StyledEcoSystemSliderContent>
-              </StyledEcoSystemGrid>
-            ),
-          },
-          {
             id: "clash",
             title: "Clash",
             content: (
@@ -163,6 +81,89 @@ const GamingModule = (props: Props) => {
               </StyledEcoSystemGrid>
             ),
           },
+          {
+            id: "conundrum",
+            title: "Conundrum",
+            content: (
+              <StyledEcoSystemGrid className="gap-4 overflow-hidden">
+                <article className="">
+                  <StyledLoreContentDesc className="mb-4 text-white text-sm">
+                    A Social strategy game inspired by iterative prisoners
+                    dilemma Players battle it out for weekly rewards through
+                    leaderboards determined by their “Coordination Scores”.
+                  </StyledLoreContentDesc>
+                  <StyledLoreContentDesc className="mb-6 text-white text-sm">
+                    Embrace the fusion of strategy and intuition as you delve
+                    into the ancient World of Chakra Outmaneuver your foes,
+                    unlock the secrets of energy manipulation, and emerge as the
+                    supreme warrior in this captivating duel of mystical might.
+                  </StyledLoreContentDesc>
+                  <Link
+                    href="https://maski-illiquid.github.io/ConundrumBeta/"
+                    target="_blank"
+                    className="play-btn"
+                  >
+                    <StyledGameItemCTA
+                      className=""
+                      style={{
+                        width: "auto",
+                        fontSize: 16,
+                        padding: "8px 12px",
+                      }}
+                    >
+                      <PlayIcon />
+                    </StyledGameItemCTA>
+                  </Link>
+                </article>
+                <StyledEcoSystemSliderContent>
+                  <video autoPlay muted playsInline loop>
+                    <source src="/videos/eco-system/conundrum.mp4" />
+                  </video>
+                </StyledEcoSystemSliderContent>
+              </StyledEcoSystemGrid>
+            ),
+          },
+          {
+            id: "ascension",
+            title: "Ascension",
+            content: (
+              <StyledEcoSystemGrid className="gap-4 overflow-hidden">
+                <article className="">
+                  <StyledLoreContentDesc className="mb-4 text-white text-sm">
+                    A 3D ARPG with comprehensive combat & loot mechanics
+                    supporting single player and team based gameplay. (PvE)
+                  </StyledLoreContentDesc>
+                  <StyledLoreContentDesc className="mb-6 text-white text-sm">
+                    Delve into digital catacombs and slaughter enemies for a
+                    never-ending shower of loot. Team up with friends to
+                    increase the challenge (and loot quality).
+                  </StyledLoreContentDesc>
+                  <Link
+                    href="https://store.epicgames.com/en-US/redeem"
+                    target="_blank"
+                    className="play-btn"
+                  >
+                    <StyledGameItemCTA
+                      className=""
+                      style={{
+                        width: "auto",
+                        fontSize: 16,
+                        padding: "8px 12px",
+                      }}
+                    >
+                      <PlayIcon />
+                    </StyledGameItemCTA>
+                  </Link>
+                </article>
+                <StyledEcoSystemSliderContent>
+                  <video autoPlay muted playsInline loop>
+                    <source src="/videos/eco-gaming.mp4" />
+                  </video>
+                </StyledEcoSystemSliderContent>
+              </StyledEcoSystemGrid>
+            ),
+          },
+          
         ]}
       />
       <div className="text-center xl:my-6 xl:my-12">

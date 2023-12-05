@@ -8,6 +8,7 @@ import { StyledHomeBannerBgImgWrapper } from "../home.style";
 
 import Parallax from "parallax-js";
 import { useEffect, useRef } from "react";
+import { Link } from "react-scroll";
 
 type Props = {};
 
@@ -86,6 +87,7 @@ const HomeBanner = (props: Props) => {
               src="/images/home/parallax/09.png"
             />
           </div>
+          
         </StyledHomeBannerWrapper>
       </>
     );

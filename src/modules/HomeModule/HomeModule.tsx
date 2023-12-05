@@ -1,9 +1,9 @@
 import { StyledHomeBanner, StyledHomeBannerContent } from "./home.style";
-
 import { motion } from "framer-motion";
-
 import SVG from "react-inlinesvg";
 import HomeBanner from "./HomeBanner";
+import Link from "next/link";
+import { Link as ScrollLink } from "react-scroll";
 
 type Props = {};
 
@@ -44,6 +44,8 @@ const HomeModule = (props: Props) => {
           </StyledHomeBannerContent>
         </div>
       </StyledHomeBanner>
+
+    
     </main>
   );
 };
