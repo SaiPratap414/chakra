@@ -32,7 +32,7 @@ const PlayBanner = (props: Props) => {
               title="EMBRACE THE FUSION OF STRATEGY AND"
               titleSubText="INTUITION AS YOU DELVE INTO THE ANCIENT WORLD."
               imgUrl="/images/play/banner/3.png"
-              path=""
+              path="https://store.epicgames.com/en-US/redeem"
               hasCTA={false}
             />
           </div>
@@ -50,7 +50,7 @@ const PlayBanner = (props: Props) => {
               title="EXPLORERS, ADVENTURERS AND"
               titleSubText="ANCIENT ORDERS ARISE!"
               imgUrl="/images/play/banner/1.png"
-              path="https://store.epicgames.com/en-US/redeem"
+              path=""
               hasCTA
             />
           </div>

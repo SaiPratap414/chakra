@@ -26,7 +26,8 @@ const GAMES = [
     title: "Chakra Clash",
     subHeading: "Simultaneous Coordination Game",
     category: "PC // Epic Games",
-    link: "",
+    link: "https://store.epicgames.com/en-US/redeem",
+    
   },
 ];
 

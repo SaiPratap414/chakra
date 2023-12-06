@@ -139,7 +139,7 @@ const GamingModule = (props: Props) => {
                     increase the challenge (and loot quality).
                   </StyledLoreContentDesc>
                   <Link
-                    href="https://store.epicgames.com/en-US/redeem"
+                    href=""
                     target="_blank"
                     className="play-btn"
                   >
