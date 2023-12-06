@@ -45,12 +45,12 @@ const GameItem = ({ imgUrl, title, subHeading, category, link, id }: Props) => {
         {link.length > 1 ? (
           <Link href={link} target="_blank">
             <StyledGameItemCTA className="font-marco">
-              {id === 1 ? "Request Access" : "Play Now"}
+              {id === 1 ? "Play Now" : "Play Now"}
             </StyledGameItemCTA>
           </Link>
         ) : (
           <StyledGameItemCTA className="font-marco">
-            Play now
+           Request Access
           </StyledGameItemCTA>
         )}
       </div>

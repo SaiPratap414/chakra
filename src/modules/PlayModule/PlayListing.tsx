@@ -6,11 +6,11 @@ type Props = {};
 const GAMES = [
   {
     id: 1,
-    imgUrl: "/images/play/ascension.png",
-    title: "Chakra Ascension",
-    subHeading: "3D ARPG Hack & Slash",
-    category: "pc // epic games",
-    link: "ht",
+    imgUrl: "/images/play/clash.png",
+    title: "Chakra Clash",
+    subHeading: "Simultaneous Coordination Game",
+    category: "PC // Epic Games",
+    link: "https://store.epicgames.com/en-US/redeem",
   },
   {
     id: 2,
@@ -22,11 +22,11 @@ const GAMES = [
   },
   {
     id: 3,
-    imgUrl: "/images/play/clash.png",
-    title: "Chakra Clash",
-    subHeading: "Simultaneous Coordination Game",
-    category: "PC // Epic Games",
-    link: "https://store.epicgames.com/en-US/redeem",
+    imgUrl: "/images/play/ascension.png",
+    title: "Chakra Ascension",
+    subHeading: "3D ARPG Hack & Slash",
+    category: "pc // epic games",
+    link: "",
     
   },
 ];
