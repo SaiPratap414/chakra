@@ -10,7 +10,7 @@ const GAMES = [
     title: "Chakra Ascension",
     subHeading: "3D ARPG Hack & Slash",
     category: "pc // epic games",
-    link: "",
+    link: "ht",
   },
   {
     id: 2,
